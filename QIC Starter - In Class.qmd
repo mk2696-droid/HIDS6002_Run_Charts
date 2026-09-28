@@ -32,9 +32,10 @@ These files are not clean. Budget real time for step 2.
 ```{r}
 #| label: setup
 #| message: false
-#install.packages("readr")
-#install.packages("qicharts2")
-#install.packages("rmarkdown")
+install.packages("readr")
+install.packages("qicharts2")
+install.packages("rmarkdown") 
+
 library(readr)
 library(dplyr)
 library(lubridate)
